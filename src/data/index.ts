@@ -16,18 +16,18 @@ import instafive from "../assets/images/instafive.png";
 import xbox from "../assets/images/xbox.png";
 
 export const iphones = [
-	{ image: iphone2, title: "iphone 10", price: "$980", link: "iphone10" },
-	{ image: iphone4, title: "iphone 11", price: "$110", link: "iphone11" },
-	{ image: iphone, title: "iphone 8", price: "$780", link: "iphone8" },
-	{ image: iphone3, title: "iphone 13", price: "$1500", link: "iphone13" },
-	{ image: iphone2, title: "iphone 13", price: "$1500", link: "iphone13" },
+	{ image: iphone2, title: "iphone 10", price: "₹35,000", link: "iphone10" },
+	{ image: iphone4, title: "iphone 11", price: "₹47,999", link: "iphone11" },
+	{ image: iphone, title: "iphone 8", price: "₹52,999", link: "iphone8" },
+	{ image: iphone3, title: "iphone 13", price: "₹59,999", link: "iphone13" },
+	{ image: iphone2, title: "iphone 13", price: "₹59,999", link: "iphone13" },
 ];
 export const smartWatches = [
-	{ image: pinkWatch, title: "pink watch", price: "$870", link: "pinkWatch" },
-	{ image: heavyWatch, title: "heavy watch", price: "$680", link: "heavyWatch" },
-	{ image: spottedWatch, title: "spotted watch", price: "$750", link: "spottedWatch" },
-	{ image: blackWatch, title: "black watch", price: "$650", link: "blackWatch" },
-	{ image: pinkWatch, title: "black watch", price: "$650", link: "blackWatch" },
+	{ image: pinkWatch, title: "pink watch", price: "₹15,000", link: "pinkWatch" },
+	{ image: heavyWatch, title: "heavy watch", price: "₹6800", link: "heavyWatch" },
+	{ image: spottedWatch, title: "spotted watch", price: "₹7590", link: "spottedWatch" },
+	{ image: blackWatch, title: "black watch", price: "₹6500", link: "blackWatch" },
+	{ image: pinkWatch, title: "black watch", price: "₹6500", link: "blackWatch" },
 ];
 export const BlogPosts = [
 	{
