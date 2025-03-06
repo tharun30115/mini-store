@@ -1,19 +1,22 @@
-export type TaskT = {
-	id: string;
-	title: string;
-	description: string;
-	priority: string;
-	deadline: number;
-	image?: string;
-	alt?: string;
-	tags: { title: string; bg: string; text: string }[];
-};
+import { RouteObject } from "react-router";
+import Layout from "../layout";
+import Boards from "../pages/Boards";
 
-type Column = {
-	name: string;
-	items: TaskT[];
-};
+const routes: RouteObject[] = [
+	{
+		path: "/",
+		element: <Layout />,
+		children: [
+			{
+				children: [
+					{
+						path: "",
+						element: <Boards />,
+					},
+				],
+			},
+		],
+	},
+];
 
-export type Columns = {
-	[key: string]: Column;
-};
+export default routes;
