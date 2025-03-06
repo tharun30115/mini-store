@@ -33,32 +33,32 @@ export const BlogPosts = [
 	{
 		image: xbox,
 		title: "Get some cool gadgets in 2023",
-		date: "feb 22, 2023",
+		date: "feb 22, 2025",
 		link: "blog",
 		category: "Gadgets",
 	},
 	{
 		image: earpods,
 		title: "TECHNOLOGY HACK YOU WON’T GET",
-		date: "feb 22, 2023",
+		date: "jan 22, 2024",
 		link: "blog",
 		category: "TECHNOLOGY",
 	},
 	{
 		image: camera,
 		title: "toP 10 SMALL cAMERA IN THE WORLD",
-		date: "feb 22, 2023",
+		date: "mar 22, 2025",
 		link: "blog",
 		category: "Camera",
 	},
 ];
 export const comments = [
 	{
-		name: "Emma Chamberlin",
+		name: "Vinsmoke Sanji",
 		body: "“Tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis Pellen tesque pretium feugiat vel morbi suspen dise sagittis lorem habi tasse morbi.”",
 	},
 	{
-		name: "Martin Garrix",
+		name: "Sheimen takezo",
 		body: "“Tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis Pellen tesque pretium feugiat vel morbi suspen dise sagittis lorem habi tasse morbi.”",
 	},
 ];
